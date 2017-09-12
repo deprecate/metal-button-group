@@ -104,4 +104,5 @@ ButtonGroup.STATE = {
  */
 ButtonGroup.SELECTED_CLASS = 'btn-group-selected';
 
+export { ButtonGroup };
 export default ButtonGroup;

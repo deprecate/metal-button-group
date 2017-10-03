@@ -2,11 +2,11 @@
 
 /**
  * This renders the main element.
- * @param buttons
- * @param? elementClasses
- * @param? selected
  */
 {template .render}
+	{@param buttons: list<?>}
+	{@param? elementClasses: string}
+	{@param? selected: list<?>}
 	<div class="btn-group component{$elementClasses ? ' ' + $elementClasses : ''}">
 		{foreach $button in $buttons}
 			{let $type: $button.type ? $button.type : 'button' /}
